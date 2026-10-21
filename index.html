@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <!-- sematic tags vs None sematic tags -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">ទំព័រដើម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">អំពីពូកយើង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">ផលិតផល</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">ទំនាក់ទំនង</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="500">
+                <img src="assets/images/banners/b1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="30">
+                <img src="assets/images/banners/b2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="200">
+                <img src="assets/images/banners/b3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="row gx-4 py-4 px-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card h-100 shadow-sm rounded-4">
+                <img src="assets/images/products/12.jpg" class=" product-img" alt="Laptops">
+                
+                <div class="card-body">
+                    <a href="shop.html#laptop" class="card-title">Laptops</a>
+                    <p class="card-text small text-secondary">
+                        Ultralight notebooks, gaming laptops, and everyday portables from top brands.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card h-100 shadow-sm rounded-4">
+                <img src="assets/images/products/24.png" class="product-img" alt="Accessories">
+
+                <div class="card-body">
+                    <a href="shop.html#accessories" class="card-title">Accessories</a>
+                    <p class="card-text small text-secondary">
+                        Keyboards, mice, bags, and essentials to upgrade your setup and workflow.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card h-100 shadow-sm rounded-4">
+                <img src="assets/images/products/3.jpg" class="product-img" alt="Desktops">
+
+                <div class="card-body">
+                    <a  href = "shop.html#desktop" class="card-title">Desktops</a>
+                    <p class="card-text small text-secondary">
+                        All-in-ones, gaming towers, and compact PCs built for performance and value.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card h-100 shadow-sm rounded-4">
+                <img src="assets/images/products/32.png" class="product-img" alt="Monitors">
+
+                <div class="card-body">
+                    <a  href = "shop.html#monitor" class="card-title">Monitors</a>
+                    <p class="card-text small text-secondary">
+                        4K displays, gaming panels, and productivity screens with crisp color.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card h-100 shadow-sm rounded-4">
+                <img src="assets/images/products/27.png" class="product-img" alt="Components">
+
+                <div class="card-body">
+                    <a href="shop.html#component" class="card-title">Components</a>
+                    <p class="card-text small text-secondary">
+                        CPUs, GPUs, RAM, and storage to upgrade, repair, or build your next PC.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card h-100 shadow-sm rounded-4">
+                <img src="assets/images/products/21.png" class="product-img" alt="Networking">
+
+                <div class="card-body">
+                    <a href="shop.html#networking" class="card-title text-decoration-none text-danger">Networking</a>
+                    <p class="card-text small text-secondary">
+                        Routers, mesh Wi-Fi, and adapters for reliable connections.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/2.jpg" class="product-img" alt="Laptops">
+
+                    <div class="card-body">
+                        <a href="shop.html#laptop" class="card-title">Laptops</a>
+                        <p class="card-text small text-secondary">
+                            Ultralight notebooks, gaming laptops, and everyday portables from top brands.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/26.png" class="product-img" alt="Accessories">
+
+                    <div class="card-body">
+                        <a href = "shop.html#accessories" class="card-title">Accessories</a>
+                        <p class="card-text small text-secondary">
+                            Keyboards, mice, bags, and essentials to upgrade your setup and workflow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/19.png" class="product-img" alt="Desktops">
+
+                    <div class="card-body">
+                        <a href = "shop.html#desktop" class="card-title">Desktops</a>
+                        <p class="card-text small text-secondary">
+                            All-in-ones, gaming towers, and compact PCs built for performance and value.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/20.png" class="product-img" alt="Monitors">
+
+                    <div class="card-body">
+                        <a href = "shop.html#monitor" class="card-title">Monitors</a>
+                        <p class="card-text small text-secondary">
+                            4K displays, gaming panels, and productivity screens with crisp color.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/28.png" class="product-img" alt="Components">
+
+                    <div class="card-body">
+                        <a href = "shop.html#component" class="card-title">Components</a>
+                        <p class="card-text small text-secondary">
+                            CPUs, GPUs, RAM, and storage to upgrade, repair, or build your next PC.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/25.png" class="product-img" alt="Networking">
+
+                    <div class="card-body">
+                        <a href="card-title">Networking</a>
+                        <p class="card-text small text-secondary">
+                            Routers, mesh Wi-Fi, and adapters for reliable connections.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row g-4">
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4" style="overflow: hidden;">
+                    <img src="assets/images/products/15.jpg" class="product-img" alt="Laptops">
+
+                    <div class="card-body">
+                        <a href="shop.html#laptop" class="card-title">Laptops</a>
+                        <p class="card-text small text-secondary">
+                            Ultralight notebooks, gaming laptops, and everyday portables from top brands.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/23.png" class="product-img" alt="Accessories">
+
+                    <div class="card-body">
+                        <a href="shop.html#accessories" class="card-title">Accessories</a>
+                        <p class="card-text small text-secondary">
+                            Keyboards, mice, bags, and essentials to upgrade your setup and workflow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/31.png" class="product-img" alt="Desktops">
+
+                    <div class="card-body">
+                        <a href="shop.html#desktop" class="card-title">Desktops</a>
+                        <p class="card-text small text-secondary">
+                            All-in-ones, gaming towers, and compact PCs built for performance and value.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/30.png" class="product-img" alt="Monitors">
+
+                    <div class="card-body">
+                        <a href="shop.html#monitor" class="card-title">Monitors</a>
+                        <p class="card-text small text-secondary">
+                            4K displays, gaming panels, and productivity screens with crisp color.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/29.png" class="product-img" alt="Components">
+
+                    <div class="card-body">
+                        <a class="card-title">Components</a>
+                        <p class="card-text small text-secondary">
+                            CPUs, GPUs, RAM, and storage to upgrade, repair, or build your next PC.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="assets/images/products/22.png" class="product-img" alt="Networking">
+
+                    <div class="card-body">
+                        <a href="shop.html#networking" class="card-title">Networking</a>
+                        <p class="card-text small text-secondary">
+                            Routers, mesh Wi-Fi, and adapters for reliable connections.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <footer class="bg-light border-top ">
+
+        <div class="container py-5">
+
+            <div class="row g-4">
+
+                <!-- Brand -->
+                <div class="col-12 col-lg-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-dark text-white rounded-3 p-2 me-2">
+                            A
+                        </div>
+
+                        <div>
+                            <a class="fw-bold mb-0">Atlas Studio</a>
+                            <small class="text-secondary">
+                                Built for clarity, speed, and long-term growth.
+                            </small>
+                        </div>
+                    </div>
+
+                    <p class="text-secondary small">
+                        A modern digital workspace for teams that need polished
+                        product experiences, clear information architecture,
+                        and a foundation that scales with confidence.
+                    </p>
+
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill">
+                        Support 24/7
+                    </button>
+
+                    <small class="text-secondary ms-2">
+                        Updated weekly
+                    </small>
+                </div>
+
+                <!-- Product -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <a class="text-uppercase small fw-bold">Product</a>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none small">Features</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Templates</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Integrations</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Security</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <a class="text-uppercase small fw-bold">Company</a>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none small">About</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Careers</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Press</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <a class="text-uppercase small fw-bold">Resources</a>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none small">Blog</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Guides</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">API Docs</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Status</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <a class="text-uppercase small fw-bold">Legal</a>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none small">Privacy</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Terms</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Cookies</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none small">Accessibility</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Newsletter -->
+            <div class="row mt-4 pt-4 border-top">
+
+                <div class="col-md-6">
+                    <small class="text-secondary">
+                        © 2026 Atlas Studio. All rights reserved.
+                    </small>
+                </div>
+
+                <div class="col-md-6">
+                    <a class="small fw-bold">Newsletter</a>
+
+                    <p class="small text-secondary">
+                        Get product updates, launch notes, and design insights delivered to your inbox.
+                    </p>
+
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Email address">
+
+                        <button class="btn btn-dark">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
